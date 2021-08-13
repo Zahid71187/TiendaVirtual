@@ -134,13 +134,15 @@ h3 {
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin: 0 1rem;
+    gap: 1rem;
+    margin: 0 0.5rem;
 }
 
 @media (min-width: 768px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin: 0 1rem;
     }
 }
 
